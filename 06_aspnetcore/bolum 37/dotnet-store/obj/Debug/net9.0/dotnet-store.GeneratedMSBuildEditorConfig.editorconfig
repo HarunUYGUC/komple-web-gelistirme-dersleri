@@ -1,0 +1,249 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = dotnet_store
+build_property.RootNamespace = dotnet_store
+build_property.ProjectDir = C:\Users\harun\OneDrive\Desktop\komple-web-gelistirme-dersleri\06_aspnetcore\bolum 37\dotnet-store\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\harun\OneDrive\Desktop\komple-web-gelistirme-dersleri\06_aspnetcore\bolum 37\dotnet-store
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Account/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Kategori/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Kategori/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Kategori/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Kategori/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Order/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Order/Completed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ29tcGxldGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Order/OrderList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Role/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Role/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Components/Navbar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Components/Slider/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2xpZGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Partials/Admin/_AdminCards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXEFkbWluXF9BZG1pbkNhcmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Partials/Admin/_Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXEFkbWluXF9NZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Partials/Admin/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXEFkbWluXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Partials/Admin/_NewOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXEFkbWluXF9OZXdPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Partials/Site/_AccountSideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX0FjY291bnRTaWRlQmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Partials/Site/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX0Zvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Partials/Site/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX01lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Partials/Site/_Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX01lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Partials/Site/_Topbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX1RvcGJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/Partials/Site/_UrunCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXFNpdGVcX1VydW5DYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/_SiteLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaXRlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Slider/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Slider/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Slider/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Slider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Urun/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Urun/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Urun/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Urun/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Urun/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/Urun/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harun/OneDrive/Desktop/komple-web-gelistirme-dersleri/06_aspnetcore/bolum 37/dotnet-store/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

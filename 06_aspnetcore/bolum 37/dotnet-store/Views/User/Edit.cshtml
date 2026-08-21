@@ -1,0 +1,72 @@
+@model UserEditModel
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="row">
+    <div class="col">
+        <div class="card shadow">
+            <div class="card-header py-1 d-flex justify-content-between align-items-center">
+                <h5 class="card-title">Kullanıcı Güncelle</h5>
+                <a asp-action="Index" class="btn btn-sm btn-primary">
+                    <i class="fa-solid fa-list"></i>
+                </a>
+            </div>
+            <div class="card-body">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <form method="post" asp-controller="User" asp-action="Edit">
+                    <div class="mb-3">
+                        <label asp-for="AdSoyad" class="form-label"></label>
+                        <input asp-for="AdSoyad" class="form-control">
+                        <span asp-validation-for="AdSoyad" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="card mb-2">
+                        <div class="card-header">
+                            <h6 class="card-title mb-0">Parola Güncelle</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label asp-for="Password" class="form-label"></label>
+                                <input asp-for="Password" class="form-control">
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label asp-for="ConfirmPassword" class="form-label"></label>
+                                <input asp-for="ConfirmPassword" class="form-control">
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-2">
+                        <div class="card-header">
+                            <h6 class="card-title mb-0">Roller</h6>
+                        </div>
+                        <div class="card-body">
+                            @foreach (var item in ViewBag.Roles)
+                            {
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" name="SelectedRoles" value="@item"
+                                        id="@item" @(Model.SelectedRoles!.Any(i => i == item) ? "checked":"")>
+                                    <label for="@item" class="form-check-label">@item</label>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,0 +1,103 @@
+@model Urun
+
+@section Bar {
+    @await Component.InvokeAsync("Navbar")
+}
+
+<section class="mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="gallery-wrap">
+                    <div class="img-big-wrap img-thumbnail">
+                        <a href="~/img/@Model.Resim" data-type="image" data-fslightbox>
+                            <img src="~/img/@Model.Resim" alt="">
+                        </a>
+                    </div>
+                    <div class="thumbs-wrap">
+                        <a href="~/img/1-big.jpeg" data-type="image" data-fslightbox>
+                            <img src="~/img/1.jpeg" height="60" alt="">
+                        </a>
+                        <a href="~/img/2-big.jpeg" data-type="image" data-fslightbox>
+                            <img src="~/img/2.jpeg" height="60" alt="">
+                        </a>
+                        <a href="~/img/3-big.jpeg" data-type="image" data-fslightbox>
+                            <img src="~/img/3.jpeg" height="60" alt="">
+                        </a>
+                        <a href="~/img/4-big.jpeg" data-type="image" data-fslightbox>
+                            <img src="~/img/4.jpeg" height="60" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <article>
+                    <h4 class="title text-dark">@Model.UrunAdi</h4>
+                    <div class="rating-wrap">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p class="text-success">Stokta</p>
+                    <div class="mb-3"><b class="price h5">@Model.Fiyat ₺</b></div>
+                    <div class="product-description mb-3">@Model.Aciklama</div>
+                    <div class="buttons">
+                        <form action="/Cart/AddToCart" method="post" class="me-1 d-inline">
+                            <input type="hidden" name="urunId" value="@Model.Id">
+                            <button type="submit" href="#" class="btn btn-warning">
+                                <i class="fa fa-shopping-basket "></i> Sepete Ekle
+                            </button>
+                        </form>
+                        <a href="#" class="btn btn-light">
+                            <i class="fa-regular fa-heart basket me-1"></i> Listeye Ekle
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@{
+    var urunler = (List<Urun>)ViewData["BenzerUrunler"]!;
+
+    if (urunler.Count > 0)
+    {
+        <section class="mt-3">
+            <div class="container">
+                <h4 class="mb-3">Benzer Ürünler</h4>
+                <div class="row gy-3">
+
+                    @foreach (var item in urunler)
+                    {
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card shadow">
+                                <div class="img-wrap">
+                                    <span class="fa fa-regular fa-heart"></span>
+                                    <img src="~/img/@item.Resim" alt="@item.UrunAdi" class="card-img-top">
+                                </div>
+
+                                <div class="border-top info-wrap">
+                                    <a asp-controller="Urun" asp-action="Details" asp-route-id="@item.Id"
+                                        class="title text-truncate">@item.UrunAdi</a>
+                                    <div class="price-wrap mb-3">
+                                        <span class="price-discount">@item.Fiyat ₺</span>
+                                        @* <del class="price">49.999 ₺</del> *@
+                                    </div>
+                                    <a href="#" class="btn btn-light w-100">
+                                        <i class="fa fa-shopping-basket me-1"></i> Sepete Ekle
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </section>
+    }
+
+}

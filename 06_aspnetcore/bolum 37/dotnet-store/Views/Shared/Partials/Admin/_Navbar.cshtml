@@ -1,0 +1,40 @@
+<nav class="navbar bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark">
+    <div class="container">
+        <a asp-controller="Admin" asp-action="Index" class="navbar-brand">Admin</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a asp-controller="Kategori" asp-action="Index" class="nav-link">Kategori</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Urun" asp-action="Index" class="nav-link">Ürün</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Slider" asp-action="Index" class="nav-link">Slider</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Role" asp-action="Index" class="nav-link">Role</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="User" asp-action="Index" class="nav-link">Kullanıcı</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Order" asp-action="Index" class="nav-link">Sipariş</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">@User.Identity?.Name</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Account" asp-action="LogOut" class="nav-link">Çıkış</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>

@@ -1,0 +1,33 @@
+@model List<Slider>
+
+<div id="slider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+
+        @{
+            int x = 0;
+            foreach (var item in Model)
+            {
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="@x" class="@(x == 0 ? "active" : "")"></button>
+                x = x + 1;
+            }
+        }
+    </div>
+    <div class="carousel-inner">
+        @{
+            int y = 0;
+            foreach (var item in Model)
+            {
+                <div class="carousel-item @(y == 0 ? "active" : "")">
+                    <img src="/img/@item.Resim" alt="@item.Baslik" class="d-block w-100">
+                </div>
+                y += 1;
+            }
+        }
+    </div>
+    <button type="button" class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button type="button" class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>

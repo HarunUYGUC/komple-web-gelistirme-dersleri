@@ -1,0 +1,41 @@
+﻿@model List<Urun>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Bar {
+    @await Component.InvokeAsync("Navbar")
+}
+
+<section class="mt-3">
+    <div class="container">
+        <div class="card">
+            <div class="row p-1 p-lg-2 gx-2">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <!-- menu -->
+                    @await Html.PartialAsync("Partials/Site/_Menu", ViewData["Kategoriler"])
+                </div>
+                <div class="col-lg-9">
+                    <!-- slider -->
+                    @await Component.InvokeAsync("Slider")
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="mt-3">
+    <div class="container">
+        <h3 class="h4 mb-1 mb-lg-3">Son Eklenenler</h3>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2">
+            @foreach (var urun in Model)
+            {
+                <div class="col">
+                    @await Html.PartialAsync("Partials/Site/_UrunCard", urun)
+                </div>
+            }
+        </div>
+    </div>
+</section>

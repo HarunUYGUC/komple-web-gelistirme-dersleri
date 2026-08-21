@@ -1,0 +1,39 @@
+@model RoleCreateModel
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="row">
+    <div class="col">
+        <div class="card shadow">
+            <div class="card-header py-1 d-flex justify-content-between align-items-center">
+                <h5 class="card-title">Role Ekle</h5>
+                <a asp-action="Index" class="btn btn-sm btn-primary">
+                    <i class="fa-solid fa-list"></i>
+                </a>
+            </div>
+            <div class="card-body">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <form method="post" asp-action="Create">
+                    <div class="row mb-3">
+                        <label asp-for="RoleAdi" class="col-sm-2 col-form-label"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="RoleAdi" class="form-control">
+                            <span asp-validation-for="RoleAdi" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-10 offset-sm-2">
+                            <button type="submit" class="btn btn-primary">Kaydet</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

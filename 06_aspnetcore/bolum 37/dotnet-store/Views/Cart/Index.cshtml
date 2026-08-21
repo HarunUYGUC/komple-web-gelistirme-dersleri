@@ -1,0 +1,116 @@
+@model Cart
+
+@section Bar {
+    <section class="bg-primary p-3">
+        <div class="container">
+            <nav>
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="#">Anasayfa</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        ALışveriş Sepeti
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+}
+
+<section class="mt-3">
+    <div class="container">
+        @if (Model.CartItems.Count == 0)
+        {
+            <div class="alert alert-warning">
+                Sepette bir ürün yok.
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                <div class="col-lg-7">
+                    <ul class="list-group">
+                        @foreach (var item in Model.CartItems)
+                        {
+                            <li class="py-3 mb-2 border-top list-group-item">
+                                <div class="row align-items-center">
+                                    <div class="col-7">
+                                        <div class="d-flex align-items-center">
+                                            <img src="~/img/@item.Urun.Resim" style="width: 100px;" alt="">
+                                            <div class="ms-3">
+                                                <a class="text-decoration-none" href="#">
+                                                    <h6 class="mb-0">@item.Urun.UrunAdi</h6>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="number" value="@item.Miktar" class="form-control" min="1">
+                                    </div>
+                                    <div class="col-2 text-center">
+                                        <span class="fw-bold">@item.Urun.Fiyat ₺</span>
+                                    </div>
+                                    <div class="col-1">
+                                        <form action="/Cart/RemoveItem" method="post">
+                                            <input type="hidden" name="urunId" value="@item.UrunId">
+                                            <input type="hidden" name="miktar" value="@item.Miktar">
+                                            <button type="submit" class="btn btn-sm btn-danger">
+                                                <i class="fa-solid fa-trash-can"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </li>
+                        }
+
+                    </ul>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card">
+                        <div class="p-3 card-body">
+                            <h2 class="h5 mb-4">Sipariş Özeti</h2>
+                            <div class="card mb-2">
+                                <div class="list-group list-group-flush">
+                                    <div class="d-flex justify-content-center align-items-center list-group-item">
+                                        <div class="me-auto">
+                                            <div>Sipariş Toplamı</div>
+                                        </div>
+                                        <span>@Model.AraToplam() ₺</span>
+
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center list-group-item">
+                                        <div class="me-auto">
+                                            <div>Kargo Ücreti</div>
+                                        </div>
+                                        <span>Ücretsiz</span>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center list-group-item">
+                                        <div class="me-auto">
+                                            <div>Vergi (%20)</div>
+                                        </div>
+                                        <span>@(Model.AraToplam() * 0.2) ₺</span>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center list-group-item">
+                                        <div class="me-auto">
+                                            <div>Toplam</div>
+                                        </div>
+                                        <span>@Model.Toplam() ₺</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <a asp-controller="Home" asp-action="Index" class="btn btn-outline-primary btn-lg">
+                                    Alışverişe Devam
+                                </a>
+                                <a asp-controller="Order" asp-action="Checkout" class="btn btn-danger btn-lg">
+                                    Siparişi Tamamla
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</section>

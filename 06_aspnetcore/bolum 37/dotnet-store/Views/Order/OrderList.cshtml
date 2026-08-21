@@ -1,0 +1,105 @@
+@model List<Order>
+
+@section Bar {
+    <section class="bg-primary p-3">
+        <div class="container">
+            <nav>
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="#">Anasayfa</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        Siparişler
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+}
+
+<section class="mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                @await Html.PartialAsync("Partials/Site/_AccountSideBar")
+            </div>
+            <div class="col-9">
+                <div class="card shadow">
+                    <div class="card-header py-1">
+                        <h5 class="card-title mb-0">Siparişler</h5>
+                    </div>
+                    <div class="card-body">
+                        @if (Model.Count == 0)
+                        {
+                            <div class="alert alert-warning">Siparişiniz yok.</div>
+                        }
+                        <div class="accordion" id="orders">
+                            @foreach (var order in Model)
+                            {
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#order_@order.Id">
+                                            Sipariş No: #@order.Id
+                                        </button>
+                                    </h2>
+                                    <div id="order_@order.Id" class="accordion-collapse collapse p-3"
+                                        data-bs-parent="#orders">
+                                        <table class="table table-bordered mb-0">
+                                            <tr>
+                                                <td colspan="2">
+                                                    Teslim Tarihi
+                                                </td>
+                                                <td colspan="3">
+                                                    @order.SiparisTarihi
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    Ad Soyad
+                                                </td>
+                                                <td colspan="3">
+                                                    @order.AdSoyad
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    Teslimat Adresi
+                                                </td>
+                                                <td colspan="3">
+                                                    @order.AdresSatiri / @order.Sehir / @order.PostaKodu / @order.Telefon
+                                                </td>
+                                            </tr>
+                                            @foreach (var item in order.OrderItems)
+                                            {
+                                                <tr>
+                                                    <td style="width: 80px;">
+                                                        <img src="~/img/@item.Urun.Resim" class="img-fluid" alt="">
+                                                    </td>
+                                                    <td>@item.Urun.UrunAdi</td>
+                                                    <td>@item.Fiyat ₺</td>
+                                                    <td>@item.Miktar <span>adet</span></td>
+                                                    <td>@(item.Fiyat* item.Miktar) ₺</td>
+                                                </tr>
+                                            }
+                                            <tr>
+                                                <td colspan="3"></td>
+                                                <td>Ara Toplam</td>
+                                                <td>@order.AraToplam() ₺</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3"></td>
+                                                <td>Toplam</td>
+                                                <td>@order.Toplam() ₺</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
