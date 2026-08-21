@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = shopapp.webui
+build_property.ProjectDir = C:\Users\harun\OneDrive\Desktop\komple-web-gelistirme-dersleri\08_aspnetcorewebapi\shopapp\shopapp.webui\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
